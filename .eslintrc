@@ -1,0 +1,47 @@
+{
+  "env": {
+    "node": true,
+    "es2022": true
+  },
+  "rules": {
+    "dot-notation": "warn",
+    "default-case-last": "warn",
+    "default-param-last": "warn",
+    "prefer-destructuring": ["warn", { "object": true, "array": false }],
+    "no-var": "error",
+    "eqeqeq": "error",
+    "no-eval": "error",
+    "no-eq-null": "error",
+    "prefer-const": "error",
+    "guard-for-in": "error",
+    "no-script-url": "error",
+    "no-undef-init": "error",
+    "require-await": "error",
+    "no-lone-blocks": "error",
+    "no-implied-eval": "error",
+    "no-multi-spaces": "error",
+    "no-self-compare": "error",
+    "curly": ["error", "multi"],
+    "no-useless-return": "error",
+    "no-inline-comments": "error",
+    "no-trailing-spaces": "error",
+    "no-implicit-globals": "error",
+    "no-floating-decimal": "error",
+    "no-duplicate-imports": "error",
+    "prefer-arrow-callback": "error",
+    "require-atomic-updates": "error",
+    "comma-dangle": ["error", "never"],
+    "arrow-parens": ["error", "as-needed"],
+    "no-unsafe-optional-chaining": "error",
+    "no-template-curly-in-string": "error",
+    "no-unmodified-loop-condition": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "no-empty-function": ["error", { "allow": ["constructors"] }],
+    "no-extra-parens": ["error", "all", { "enforceForArrowConditionals": false }],
+    "func-style": ["error", "expression", { "allowArrowFunctions": true }]
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"]
+}
